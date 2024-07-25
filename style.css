@@ -1,0 +1,83 @@
+body{
+	font-family: comic, bold;
+	background-image: url("image/fonds.png");
+	text-align: center;
+	text-overflow: clip;
+	margin: 0 auto;
+	width: 70%;
+}
+
+h1{
+	color: #b03a2e;
+	font-kerning: none;
+	font-weight: bold;
+	font-size: 70px;
+	text-shadow: 20px;
+	font-family: 'Playfair Display';
+}
+
+img{
+	width:250px;
+	height: 250px;
+	border-radius: 50%;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+video{
+	width:450px;
+	height:300px;
+}
+
+a{
+	color: #b03a2e;
+	text-decoration: none;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+p{
+	font-size: 35px;
+	color: #6e2c00;
+	text-align: center;
+	font-family: 'Oswald', sans-serif; 
+}
+
+.same-size{
+	font-size: 45px;
+	color: #6e2c00;
+}
+
+.quote{
+	padding: 20px;
+	border: 20px;
+	background-color: #f7dc6f;
+	border-radius: 20px;
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+}
+
+.exemple {
+	display: flex;
+	justify-content: space-around;
+}
+
+.equipe {
+	display: flex;
+	flex-direction: column;
+}
+.img-ex {
+	width: 200px;
+	height: 350px;
+	border-radius: 20px; 
+	margin-top: 50px;
+}
+
+.img-eq {
+	width: 100%;
+	height: 350px;
+	border-radius: 20px; 
+	margin-top: 50px;
+	object-fit: cover;
+}
